@@ -1,0 +1,111 @@
+/* Reseteo de márgenes y rellenos para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Asegura que el tamaño de caja se calcula de manera consistente */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  /* Estilos para elementos de formulario, heredan la fuente del contenedor */
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+  
+  /* Ajustes de envoltura de texto para párrafos */
+  p {
+    text-wrap: pretty;
+  }
+  
+  /* Ajustes de envoltura de texto para encabezados */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-wrap: balance;
+  }
+  
+  /* Estilos para imágenes, videos y SVGs para mantener proporciones */
+  img,
+  video,
+  svg {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  /* Configuración para usuarios con preferencias de reducción de movimiento */
+  @media (prefers-reduced-motion: reduce) {
+  
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+      transition: none;
+    }
+  }
+  
+  
+  
+  
+  :root {
+    /* Colores */
+    --color-background: #ffffff;
+    --color-primary: #f49d15;
+    --color-secondary: #00235A;
+  
+  
+    --color-text: #212529;
+  
+    /* Tamaños de fuente */
+    --font-size-xlarge: 53px; 
+    --font-size-small: 15px; 
+    --font-size-base: 17px; 
+    --font-size-large: 45px; 
+    --font-size-base-x: 20px; 
+  
+  
+  
+  
+    /* Alturas y anchos */
+  
+  
+    --height-header: 65px;
+    --width-sidebar: 250px;
+    --max-width-container: 1200px;
+  
+    /* Espaciado */
+  
+  
+    --spacing-small: 0.5rem; /* 8px */
+    --spacing-base: 1rem; /* 16px */
+    --spacing-large: 2rem; /* 32px */
+  
+    /* Bordes */
+  
+  
+    --border-radius: 4px;
+    --border-width: 1px;
+    --border-color: #dee2e6;
+  
+  
+    /* especificos */
+  }
+  
+  .no-scroll {
+    overflow: hidden;
+  }
+  

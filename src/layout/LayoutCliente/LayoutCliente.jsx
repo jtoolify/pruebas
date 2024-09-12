@@ -2,7 +2,7 @@ import React from 'react';
 import { Roboto } from 'next/font/google';
 import HeaderCliente from '@/components/unique/HeaderCliente/HeaderCliente';
 import FooterCliente from '@/components/unique/FooterCliente/FooterCliente';
-import './global.css';
+import './LayoutClienteglobal.css';
 import styles from './LayoutCliente.module.css';
 
 const roboto = Roboto({

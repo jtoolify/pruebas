@@ -1,12 +1,10 @@
-// import { UserButton } from "@clerk/nextjs";
+import LayoutWrapper from "@/layout/LayoutWrapper";
+
 
 export default function Admin() {
   return (
-    <div>
-      {/* <h2>Admin</h2> */}
-      <div>
-        {/* <UserButton afterSignOutUrl="/sign-in" /> */}
-      </div>
-    </div>
+    <LayoutWrapper layout="admin">
+      <h2>admin</h2>
+    </LayoutWrapper>
   );
 }
