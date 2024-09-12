@@ -1,0 +1,25 @@
+.LayoutClienteContenedor {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.LayoutClienteHeader {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    height: var(--height-header);
+}
+
+
+.LayoutClienteMain {
+    min-height: calc(100vh - var(--height-header));
+
+}
+
+
+/* .LayoutClienteFooter {
+
+}
+ */

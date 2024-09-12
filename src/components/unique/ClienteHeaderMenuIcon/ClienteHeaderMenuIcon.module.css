@@ -1,0 +1,27 @@
+@media (max-width: 1147px) {
+    .headerMenuIconButton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 58px;
+      height: 100%;
+      margin-left: auto;
+      cursor: pointer;
+      padding: 10px 10px;
+      background-color: transparent;
+      border: 0px transparent;
+    }
+  
+    .img {
+      background-color: rgba(0, 0, 0, 0.03);
+      width: 90%;
+      height: 85%;
+    }
+  }
+  
+  @media (min-width: 1148px) {
+    .headerMenuIconButton {
+      display: none;
+    }
+  }
+  

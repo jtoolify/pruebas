@@ -1,10 +1,10 @@
 import LayoutWrapper from "@/layout/LayoutWrapper";
 
 
-export default function Inicio() {
+export default function Certificados() {
   return (
     <LayoutWrapper layout="cliente">
-      <h2>inicio</h2>
+      <h2>Certificados</h2>
     </LayoutWrapper>
   );
 }

@@ -1,10 +1,10 @@
 import LayoutWrapper from "@/layout/LayoutWrapper";
 
 
-export default function Inicio() {
+export default function contactos() {
   return (
     <LayoutWrapper layout="cliente">
-      <h2>inicio</h2>
+      <h2>contactos</h2>
     </LayoutWrapper>
   );
 }

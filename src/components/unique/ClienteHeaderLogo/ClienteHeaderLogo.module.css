@@ -1,0 +1,22 @@
+.contenedorLogoPagina {
+    display: flex;
+  }
+  
+  .contenedorLogoPagina::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-right: 0 solid transparent;
+    border-left: var(--height-header) solid transparent;
+    border-top: var(--height-header) solid var(--color-primary);
+    background-color: var(--color-background);
+    margin-top: auto;
+  }
+  
+  .img {
+    width: 220px;
+    background-color: var(--color-background);
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

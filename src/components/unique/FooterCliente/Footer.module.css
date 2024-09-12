@@ -1,0 +1,77 @@
+/* components/unique/Footer/Footer.module.css */
+
+.footer {
+    background-color: var(--color-secondary);
+    padding: 40px 15px 50px 15px;
+  }
+  
+  .footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .colorGray {
+    color: #D5D5D5;
+    text-align: justify;
+  }
+  
+  .footerSection {
+    width: 25%;
+    padding: 15px;
+    color: #fff;
+  }
+  
+  .footerSectionTitle {
+    font-size: x-large;
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
+  
+  .footerSectionContent {
+    color: #D5D5D5;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footerSectionContent strong {
+    color: #eeeeee;
+  }
+  
+  .footerLinks {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footerLinks a {
+    text-decoration: none;
+    color: #D5D5D5;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+  }
+  
+  .footerLinks a:hover {
+    color: #fc8414;
+  }
+  
+  /* Media queries */
+  @media (max-width: 1037px) {
+    body.no-scroll .footer {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 890px) {
+    .footerSection {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .footerSection {
+      width: 100%;
+    }
+  }
+  
