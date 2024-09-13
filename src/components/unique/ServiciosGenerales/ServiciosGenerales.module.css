@@ -1,0 +1,122 @@
+.contenedorSectionServicios {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    }
+  
+  .contenedorTituloSectionV1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contenedorTituloSectionV1 span {
+    font-size: 24px;
+    text-align: center;
+    color: #00235a;
+    padding: 0px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .contenedorTituloSectionV1::after {
+    content: '';
+    width: 100px;
+    border: 3px solid #f49d15;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .contenedorServicios {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 35px;
+    margin-bottom: 20px;
+  }
+  
+  .servicioItem {
+    width: 25%;
+    display: flex;
+    padding: 10px;
+  }
+  
+  .servicioLink {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    border: 2px solid #f4f4f4;
+    padding: 30px 10px 10px 10px;
+    transition: all 0.2s ease;
+    position: relative;
+  }
+  
+  .servicioLink::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px; 
+    background-color: transparent; 
+    transition: background-color 0.3s;
+  }
+  
+  .servicioLink:hover {
+    box-shadow: 0px 30px 40px 0px rgba(32, 85, 125, 0.06);
+  }
+  
+  .servicioLink:hover::after {
+    box-shadow: 0 4px 0 #f49d15;
+  }
+  
+  .servicioLink img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .servicioLink span {
+    margin-top: 15px;
+    color: #00235a;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .servicioLink:hover span {
+    color: #f49d15;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 1117px) {
+    .servicioItem {
+      width: 33.33%;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .servicioItem {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .servicioItem {
+      width: 100%;
+    }
+  
+    .servicioLink img {
+      width: 120px;
+      height: 130px;
+    }
+  
+    .servicioLink {
+      padding: 30px 10px 30px 10px;
+    }
+  }
+  

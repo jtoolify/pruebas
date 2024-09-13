@@ -16,6 +16,19 @@
       subtitulo: "CEO, LAAO.COM",
       contenido: "Factory se ha convertido en el aliado que llevaba esperando mucho tiempo. Porque reúne lo que se necesita en el desarrollo de proyectos de ingeniería: profesionalismo, cumplimiento, responsabilidad y calidad en el proceso."
     },
+    servicios: {
+      titulo: "servicios",
+      servicios: [
+        { id: 1, title: 'ejemplo 1', imgSrc: '/img/servicios/icono-servicio-1.png' },
+        { id: 2, title: 'ejemplo 2', imgSrc: '/img/servicios/icono-servicio-2.png' },
+        { id: 3, title: 'ejemplo 3', imgSrc: '/img/servicios/icono-servicio-3.png' },
+        { id: 4, title: 'ejemplo 4', imgSrc: '/img/servicios/icono-servicio-4.png' },
+        { id: 5, title: 'ejemplo 5', imgSrc: '/img/servicios/icono-servicio-1.png' },
+        { id: 6, title: 'ejemplo 6', imgSrc: '/img/servicios/icono-servicio-1.png' },
+        { id: 7, title: 'ejemplo 7', imgSrc: '/img/servicios/icono-servicio-1.png' },
+        { id: 8, title: 'ejemplo 8', imgSrc: '/img/servicios/icono-servicio-1.png' },
+      ]
+    }
   };
 
 export default InicioData;
